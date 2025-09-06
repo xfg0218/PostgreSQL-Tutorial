@@ -1,11 +1,15 @@
 # PostgreSQL-Tutorial
 
-本 PostgreSQL 教程将从入门到高级全面教你学习 PostgreSQL 。
+本 `PostgreSQL` 教程将从入门到高级全面教你学习 `PostgreSQL` 。
 
 > 内容翻译来自 [`PostgreSQL-Tutorial`](https://github.com/pengzhile/PostgreSQL-Tutorial)
 
 
 # 第 1 节 PostgreSQL入门
+
+- [什么是 `PostgreSQL` ](第1节-PostgreSQL入门/什么是PostgreSQL.md) ？解释什么是 `PostgreSQL` 以及你可以用它做什么。
+
+
 
 # 第 2 节 筛选表中的行
 
