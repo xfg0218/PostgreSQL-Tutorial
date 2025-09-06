@@ -2,7 +2,7 @@
 
 本 PostgreSQL 教程将从入门到高级全面教你学习 PostgreSQL 。
 
-> 内容翻译自 [`PostgreSQL-Tutorial`](https://github.com/pengzhile/PostgreSQL-Tutorial)
+> 内容翻译来自 [`PostgreSQL-Tutorial`](https://github.com/pengzhile/PostgreSQL-Tutorial)
 
 
 # 第 1 节 PostgreSQL入门
@@ -44,6 +44,5 @@
 # 第 19 节 非规范化数据类型
 
 # 第 20 节 触发器
-
 
 
