@@ -75,174 +75,174 @@
 
 # 第 6 节 行分组
 
-&#9654; [ `GROUP BY` ]() -- 按表中一列或多列的值将行分组，并对每个组应用聚合函数。
+&#9654; [ `GROUP BY` ](第6节-行分组/GROUP-BY.md) -- 按表中一列或多列的值将行分组，并对每个组应用聚合函数。
 
-&#9654; [ `HAVING` ]() -- 根据条件筛选行组。
+&#9654; [ `HAVING` ](第6节-行分组/HAVING.md) -- 根据条件筛选行组。
 
-&#9654; [ `GROUPING SETS` ]() -- 在单个查询中创建多个分组。
+&#9654; [ `GROUPING SETS` ](第6节-行分组/GROUPING-SETS.md) -- 在单个查询中创建多个分组。
 
-&#9654; [ `ROLLUP` ]() -- 创建层级汇总。
+&#9654; [ `ROLLUP` ](第6节-行分组/ROLLUP.md) -- 创建层级汇总。
 
-&#9654; [ `CUBE` ]() -- 创建指定列的所有可能聚合组合。
+&#9654; [ `CUBE` ](第6节-行分组/CUBE.md) -- 创建指定列的所有可能聚合组合。
 
 # 第 7 节 集合运算
 
-&#9654; [ `UNION` ]() --将一个结果集附加到另一个结果集，并返回单个结果集。
+&#9654; [ `UNION` ](第7节-集合运算/UNION.md) --将一个结果集附加到另一个结果集，并返回单个结果集。
 
-&#9654; [ `INTERSECT` ]() -- 返回两个结果集的交集。
+&#9654; [ `INTERSECT` ](第7节-集合运算/INTERSECT.md) -- 返回两个结果集的交集。
 
-&#9654; [ `EXCEPT` ]() -- 找出两个查询的两个结果集之间的差异。
+&#9654; [ `EXCEPT` ](第7节-集合运算/EXCEPT.md) -- 找出两个查询的两个结果集之间的差异。
 
 # 第 8 节 PostgreSQL数据类型
 
-&#9654; [ `Boolean` ]() -- 在数据库中存储布尔数据，包括 `true、false` 和 `NULL` 值。
+&#9654; [ `Boolean` ](第8节-PostgreSQL数据类型/Boolean.md) -- 在数据库中存储布尔数据，包括 `true、false` 和 `NULL` 值。
 
-&#9654; [ `Char` ]() --在数据库中存储固定长度和填充字符串。
+&#9654; [ `Char` ](第8节-PostgreSQL数据类型/char.md) --在数据库中存储固定长度和填充字符串。
 
-&#9654; [ `Varchar` ]() --在数据库中存储可变长度的字符串。
+&#9654; [ `Varchar` ](第8节-PostgreSQL数据类型/Varchar.md) --在数据库中存储可变长度的字符串。
 
-&#9654; [ `Text` ]() --存储无大小限制的可变长度字符数据。
+&#9654; [ `Text` ](第8节-PostgreSQL数据类型/Text.md) --存储无大小限制的可变长度字符数据。
 
-&#9654; [ `Integer` ]() -- 使用各种整数类型存储整数。
+&#9654; [ `Integer` ](第8节-PostgreSQL数据类型/Integer.md) -- 使用各种整数类型存储整数。
 
-&#9654; [ `Decimal` ]() -- 使用 `decimal` 或 `numeric` 类型存储具有精度的数值数据。
+&#9654; [ `Decimal` ](第8节-PostgreSQL数据类型/Decimal.md) -- 使用 `decimal` 或 `numeric` 类型存储具有精度的数值数据。
 
-&#9654; [ `Date` ]() -- 在表中存储不含时间数据的日期。
+&#9654; [ `Date` ](第8节-PostgreSQL数据类型/Date.md) -- 在表中存储不含时间数据的日期。
 
-&#9654; [ `Time` ]() --在表中存储不含日期的时间数据。
+&#9654; [ `Time` ](第8节-PostgreSQL数据类型/Time.md) --在表中存储不含日期的时间数据。
 
-&#9654; [ `Timestamp` ]() -- 在数据库中存储不带时区的本地日期和时间。
+&#9654; [ `Timestamp` ](第8节-PostgreSQL数据类型/Timestamp.md) -- 在数据库中存储不带时区的本地日期和时间。
 
-&#9654; [ `Timestamp with a time zone` ]() -- 了解如何使用 `TIMESTAMPTZ` 数据类型处理带时区的时间戳值。
+&#9654; [ `Timestamp with a time zone` ](第8节-PostgreSQL数据类型/Timestamp-with-a-time-zone.md) -- 了解如何使用 `TIMESTAMPTZ` 数据类型处理带时区的时间戳值。
 
-&#9654; [ `Interval` ]() -- 存储时间间隔值。
+&#9654; [ `Interval` ](第8节-PostgreSQL数据类型/Interval.md) -- 存储时间间隔值。
 
-&#9654; [ `UUID` ]() -- 向您展示如何将 `UUID` 类型用于主键列。
+&#9654; [ `UUID` ](第8节-PostgreSQL数据类型/UUID.md) -- 向您展示如何将 `UUID` 类型用于主键列。
 
 # 第 9 节 子查询
 
-&#9654; [ `Subquery` ]() -- 了解如何编写嵌套在另一个查询中的查询，以形成更灵活的查询
+&#9654; [ `Subquery` ](第9节-子查询/Subquery.md) -- 了解如何编写嵌套在另一个查询中的查询，以形成更灵活的查询
 
-&#9654; [ `Correlated Subquery` ]() -- 向您展示如何使用关联子查询来选择依赖于外部查询值的数据。
+&#9654; [ `Correlated Subquery` ](第9节-子查询/Correlated-Subquery.md) -- 向您展示如何使用关联子查询来选择依赖于外部查询值的数据。
 
-&#9654; [ `Subquery with IN operator` ]() -- 向您展示如何在 `WHERE` 子句中使用带IN运算符的子查询来筛选行。
+&#9654; [ `Subquery with IN operator` ](第9节-子查询/Subquery-with-IN-operator.md) -- 向您展示如何在 `WHERE` 子句中使用带IN运算符的子查询来筛选行。
 
-&#9654; [ `EXISTS` ]() -- 了解如何使用 `EXISTS` 运算符检查子查询返回的行是否存在。
+&#9654; [ `EXISTS` ](第9节-子查询/EXISTS.md) -- 了解如何使用 `EXISTS` 运算符检查子查询返回的行是否存在。
 
-&#9654; [ `ANY` ]() -- 将一个值与子查询返回的一组值进行比较，如果至少有一个比较结果为真，则返回真。
+&#9654; [ `ANY` ](第9节-子查询/ANY.md) -- 将一个值与子查询返回的一组值进行比较，如果至少有一个比较结果为真，则返回真。
 
-&#9654; [ `ALL` ] -- 将一个值与子查询返回的一组值进行比较，如果所有比较结果都为真，则返回真。
+&#9654; [ `ALL` ](第9节-子查询/ALL.md) -- 将一个值与子查询返回的一组值进行比较，如果所有比较结果都为真，则返回真。
 
 # 第 10 节 CTE公用表表达式
 
-&#9654; [ `CTE` ]() -- 了解如何使用公用表表达式 `CTE` 简化复杂查询。
+&#9654; [ `CTE` ](第10节-CTE公用表表达式/CTE.md) -- 了解如何使用公用表表达式 `CTE` 简化复杂查询。
 
-&#9654; [ `Recursive CTE` ]() -- 向你展示如何使用递归 `CTE` 执行递归查询。
+&#9654; [ `Recursive CTE` ](第10节-CTE公用表表达式/Recursive-CTE.md) -- 向你展示如何使用递归 `CTE` 执行递归查询。
 
 # 第 11 节 选择不同的行
 
-&#9654; [ `SELECT DISTINCT` ]() -- 通过一列或多列的值从结果集中消除重复行。
+&#9654; [ `SELECT DISTINCT` ](第11节-选择不同的行/SELECT-DISTINCT.md) -- 通过一列或多列的值从结果集中消除重复行。
 
-&#9654; [ `SELECT DISTINCT ON` ]() -- 了解如何将行分组为不同的组，并选择每个组中的第一行。
+&#9654; [ `SELECT DISTINCT ON` ](第11节-选择不同的行/SELECT-DISTINCT-ON.md) -- 了解如何将行分组为不同的组，并选择每个组中的第一行。
 
 # 第 12 节 数据库视图
 
-&#9654; [ `View` ]() -- 了解视图以及如何使用视图创建可重用的查询并简化复杂查询。
+&#9654; [ `View` ](第12节-数据库视图/view.md) -- 了解视图以及如何使用视图创建可重用的查询并简化复杂查询。
 
-&#9654; [ `Materialized Views` ]() -- 创建物化视图以提高耗时查询的性能。
+&#9654; [ `Materialized Views` ](第12节-数据库视图/Materialized-Views.md) -- 创建物化视图以提高耗时查询的性能。
 
 # 第 13 节 条件表达式
 
-&#9654; [ `CASE expression` ]() -- 在查询中添加 `if-else` 逻辑，以构建更灵活的查询。
+&#9654; [ `CASE expression` ](第13节-条件表达式/CASE-expression.md) -- 在查询中添加 `if-else` 逻辑，以构建更灵活的查询。
 
-&#9654; [ `COALESCE` ]() -- 返回第一个非空参数，允许您将 `NULL` 替换为非 `NULL` 值。
+&#9654; [ `COALESCE` ](第13节-条件表达式/COALESCE.md) -- 返回第一个非空参数，允许您将 `NULL` 替换为非 `NULL` 值。
 
-&#9654; [ `NULLIF` ]() -- 如果两个参数相同则返回 `NULL` ,使你能够用 `NULL` 替换某个值。
+&#9654; [ `NULLIF` ](第13节-条件表达式/NULLIF.md) -- 如果两个参数相同则返回 `NULL` ,使你能够用 `NULL` 替换某个值。
 
-&#9654; [ `GREATEST` ]() -- 返回一组值中的最大值。
+&#9654; [ `GREATEST` ](第13节-条件表达式/GREATEST.md) -- 返回一组值中的最大值。
 
-&#9654; [ `LEAST` ]() -- 返回值列表中的最小值。
+&#9654; [ `LEAST` ](第13节-条件表达式/LEAST.md) -- 返回值列表中的最小值。
 
 # 第 14 节 增强表结构
 
-&#9654; [ `ALTER TABLE` ]() -- 通过添加列、删除列、重命名表等方式修改表结构。
+&#9654; [ `ALTER TABLE` ](第14节-增强表结构/ALTER-TABLE.md) -- 通过添加列、删除列、重命名表等方式修改表结构。
 
-&#9654; [ `Sequence` ]() -- 了解如何使用序列生成连续整数。
+&#9654; [ `Sequence` ](第14节-增强表结构/Sequence.md) -- 了解如何使用序列生成连续整数。
 
-&#9654; [ `Identity Column` ]() -- 使用标识列基于隐式序列自动生成整数。
+&#9654; [ `Identity Column` ](第14节-增强表结构/Identity-Column.md) -- 使用标识列基于隐式序列自动生成整数。
 
-&#9654; [ `Adding columns to a table` ]() -- 向您展示如何向表中添加一个或多个列。
+&#9654; [ `Adding columns to a table` ](第14节-增强表结构/Adding-columns-to-a-table.md) -- 向您展示如何向表中添加一个或多个列。
 
-&#9654; [ `Renaming tables` ]() -- 了解如何将表名更改为新名称。
+&#9654; [ `Renaming tables` ](第14节-增强表结构/Renaming-tables.md) -- 了解如何将表名更改为新名称。
 
-&#9654; [ `Renaming columns` ]() -- 指导你如何更改现有表列的名称。
+&#9654; [ `Renaming columns` ](第14节-增强表结构/Renaming-columns.md) -- 指导你如何更改现有表列的名称。
 
-&#9654; [ `Dropping columns` ]() -- 向您展示如何从表中删除一个或多个列。
+&#9654; [ `Dropping columns` ](第14节-增强表结构/Dropping-columns.md) -- 向您展示如何从表中删除一个或多个列。
 
 # 第 15 节 高级文本搜索
 
-&#9654; [ `LIKE` ]() -- 查找与模式匹配的字符串。
+&#9654; [ `LIKE` ](第15节-高级文本搜索/LIKE.md) -- 查找与模式匹配的字符串。
 
-&#9654; [ `Regular Expressions` ]() -- 了解如何使用匹配运算符 `(~)` 来搜索与 `POSIX` 正则表达式匹配的字符串。
+&#9654; [ `Regular Expressions` ](第15节-高级文本搜索/Regular-Expressions.md) -- 了解如何使用匹配运算符 `(~)` 来搜索与 `POSIX` 正则表达式匹配的字符串。
 
-&#9654; [ `SIMILAR TO` ]() -- 搜索与包含通配符 `(% and _ )` 或正则表达式的模式相匹配的字符串。
+&#9654; [ `SIMILAR TO` ](第15节-高级文本搜索/SIMILAR-TO.md) -- 搜索与包含通配符 `(% and _ )` 或正则表达式的模式相匹配的字符串。
 
-&#9654; [ `Full-text search` ]() -- 执行全文搜索
+&#9654; [ `Full-text search` ](第15节-高级文本搜索/Full-text-search.md) -- 执行全文搜索
 
 # 第 16 节 用户定义函数
 
-&#9654; [ `Create functions` ]() -- 了解如何创建用户定义函数。
+&#9654; [ `Create functions` ](第16节-用户定义函数/Create-functions.md) -- 了解如何创建用户定义函数。
 
-&#9654; [ `Drop functions` ]() -- 向您展示如何删除一个或多个用户定义函数。
+&#9654; [ `Drop functions` ](第16节-用户定义函数/Drop-functions.md) -- 向您展示如何删除一个或多个用户定义函数。
 
 # 第 17 节 存储过程
 
-&#9654; [ `Create stored procedures` ]() -- 展示如何使用 `CREATE PROCEDURE` 语句创建存储过程。
+&#9654; [ `Create stored procedures` ](第17节-存储过程/Create-stored-procedures.md) -- 展示如何使用 `CREATE PROCEDURE` 语句创建存储过程。
 
-&#9654; [ `Drop procedure` ]() -- 了解如何从数据库中移除存储过程。
+&#9654; [ `Drop procedure` ](第17节-存储过程/Drop-procedure.md) -- 了解如何从数据库中移除存储过程。
 
 # 第 18 节 索引
 
-&#9654; [ `Index `]() -- 利用索引提高查询性能。
+&#9654; [ `Index `](第18节-索引/Index.md) -- 利用索引提高查询性能。
 
-&#9654; [ `CREATE INDEX` ]() -- 为表的一个或多个列创建索引。
+&#9654; [ `CREATE INDEX` ](第18节-索引/CREATE-INDEX.md) -- 为表的一个或多个列创建索引。
 
-&#9654; [ `DROP INDEX` ]() -- 从数据库中删除索引。
+&#9654; [ `DROP INDEX` ](第18节-索引/DROP-INDEX.md) -- 从数据库中删除索引。
 
-&#9654; [ `Unique index` ]() -- 强制表中一列或多列的值具有唯一性。
+&#9654; [ `Unique index` ](第18节-索引/Unique-index.md) -- 强制表中一列或多列的值具有唯一性。
 
-&#9654; [ `Expression Index` ]() -- 基于涉及表列的表达式结果创建索引,这可以优化包含表达式的查询。
+&#9654; [ `Expression Index` ](第18节-索引/Expression-Index.md) -- 基于涉及表列的表达式结果创建索引,这可以优化包含表达式的查询。
 
-&#9654; [ `Partial Indexes` ]() -- 创建部分索引，其中包含索引列中的部分行,以减小索引大小并提高查询性能。
+&#9654; [ `Partial Indexes` ](第18节-索引/Partial-Indexes.md) -- 创建部分索引，其中包含索引列中的部分行,以减小索引大小并提高查询性能。
 
-&#9654; [ `Index-only Scans` ]() -- 利用仅索引扫描从索引中完整检索数据。
+&#9654; [ `Index-only Scans` ](第18节-索引/Index-only-Scans.md) -- 利用仅索引扫描从索引中完整检索数据。
 
 # 第 19 节 非规范化数据类型
 
-&#9654; [ `Composite types` ]() -- 解释什么是复合类型以及如何管理复合类型,例如创建新的复合类型。
+&#9654; [ `Composite types` ](第19节-非规范化数据类型/Composite-types.md) -- 解释什么是复合类型以及如何管理复合类型,例如创建新的复合类型。
 
-&#9654; [ `Drop Type` ]() -- 了解如何从数据库中移除用户定义的类型。
+&#9654; [ `Drop Type` ](第19节-非规范化数据类型/Drop-Type.md) -- 了解如何从数据库中移除用户定义的类型。
 
-&#9654; [ `Array` ]() -- 使用数组数据类型在一个列中存储多个相同类型的值。
+&#9654; [ `Array` ](第19节-非规范化数据类型/Array.md) -- 使用数组数据类型在一个列中存储多个相同类型的值。
 
-&#9654; [ `XML` ]() -- 使用 `XML` 数据类型在数据库中存储 `XML` 文档或 `XML` 片段。
+&#9654; [ `XML` ](第19节-非规范化数据类型/XML.md) -- 使用 `XML` 数据类型在数据库中存储 `XML` 文档或 `XML` 片段。
 
-&#9654; [ `Enum` ]() -- 定义一个接受小型固定值列表的列。
+&#9654; [ `Enum` ](第19节-非规范化数据类型/Enum.md) -- 定义一个接受小型固定值列表的列。
 
-&#9654; [ `JSON` ]() -- 使用 `JSON` 数据类型在数据库中存储 `JSON` 。
+&#9654; [ `JSON` ](第19节-非规范化数据类型/JSON.md) -- 使用 `JSON` 数据类型在数据库中存储 `JSON` 。
 
-&#9654; [ `Cast` ]() -- 将一种类型的值转换为另一种类型。
+&#9654; [ `Cast` ](第19节-非规范化数据类型/Cast.md) -- 将一种类型的值转换为另一种类型。
 
 # 第 20 节 触发器
 
-&#9654; [ `Triggers` ]() -- 了解如何使用触发器自动响应表上发生的事件。
+&#9654; [ `Triggers` ](第20节-触发器/Triggers.md) -- 了解如何使用触发器自动响应表上发生的事件。
 
-&#9654; [ `Drop Trigger ` ]() -- 指导你如何从数据库中的表中删除触发器。
+&#9654; [ `Drop Trigger ` ](第20节-触发器/Drop-Trigger.md) -- 指导你如何从数据库中的表中删除触发器。
 
-&#9654; [ `Disabling Triggers` ]() -- 向您展示如何关闭表的触发器，以避免在执行批量数据加载时产生性能开销。
+&#9654; [ `Disabling Triggers` ](第20节-触发器/Disabling-Triggers.md) -- 向您展示如何关闭表的触发器，以避免在执行批量数据加载时产生性能开销。
 
-&#9654; [ `Event Triggers` ]() -- 了解如何使用事件触发器来监控和控制数据库结构的变化。
+&#9654; [ `Event Triggers` ](第20节-触发器/Event-Triggers.md) -- 了解如何使用事件触发器来监控和控制数据库结构的变化。
 
-&#9654; [ `BEFORE INSERT Trigger`]() -- 使用插入前触发器可在向表中插入行之前自动调用函数。
+&#9654; [ `BEFORE INSERT Trigger`](第20节-触发器/BEFORE-INSERT-Trigger.md) -- 使用插入前触发器可在向表中插入行之前自动调用函数。
 
-&#9654; [ `AFTER INSERT Trigger` ]() -- 在表上发生插入事件后,使用插入后触发器自动调用函数。
+&#9654; [ `AFTER INSERT Trigger` ](第20节-触发器/AFTER-INSERT-Trigger.md) -- 在表上发生插入事件后,使用插入后触发器自动调用函数。
