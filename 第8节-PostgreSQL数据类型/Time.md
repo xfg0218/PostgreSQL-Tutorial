@@ -160,3 +160,57 @@ RETURNING *;
   2 | John Doe | 13:00:00 | 17:00:00
 ```
 
+在本示例中，我们明确使用 `ISO 8601` 格式的时间值 `hh:mm:ss`
+
+# 从时间值中提取时、分、秒
+
+`extract()` 函数从时间值中提取可以是小时、分钟和秒的字段。
+
+例如，以下语句使用 `extract()` 函数从 `start_at` 列中提取小时、分钟和秒：
+
+```sql
+SELECT
+  employee,
+  start_at,
+  extract(hour  from start_at) h,
+  extract(minute from start_at) m,
+  extract(second from start_at) s
+FROM
+  schedules;
+```
+
+输出：
+
+```sql
+ employee | start_at | h  | m |    s
+----------+----------+----+---+----------
+ John Doe | 08:00:00 |  8 | 0 | 0.000000
+ John Doe | 13:00:00 | 13 | 0 | 0.000000
+```
+
+第二个包含小数部分。要移除它，你可以使用强制转换运算符 `::` 将秒强制转换为整数。
+
+```sql
+SELECT
+  employee,
+  start_at,
+  extract(hour  from start_at) h,
+  extract(minute from start_at) m,
+  extract(second from start_at)::INT s
+FROM
+  schedules;
+```
+
+输出：
+
+```sql
+ employee | start_at | h  | m | s
+----------+----------+----+---+---
+ John Doe | 08:00:00 |  8 | 0 | 0
+ John Doe | 13:00:00 | 13 | 0 | 0
+```
+
+# 总结
+
+- 使用 `PostgreSQL` 的 `TIME` 数据类型在表中存储时间值。 
+- 使用 `extract()` 函数从时间值中提取小时、分钟和秒。
