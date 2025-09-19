@@ -259,3 +259,4 @@ SELECT
 - 使用 `EXTRACT` 函数从间隔中提取一个组成部分。
 - 使用 `JUSTIFY_HOURS` 、 `JUSTIFY_DAYS` 和 `JUSTIFY_INTERVAL` 函数来调整间隔。
 - 使用运算符（ `+` 、 `-` 、 `*` 、 `/` ）执行区间算术运算。
+
