@@ -107,3 +107,4 @@ RETURNING *;
 
 - 为表的主键列使用 `UUID` 数据类型。
 - 使用 `gen_random_uuid()` 函数生成 `UUID` 值。
+
